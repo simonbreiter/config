@@ -83,7 +83,6 @@ installHomebrewApps()
   brew cask install vmware-fusion;
   brew cask install micro-snitch;
   brew cask install little-snitch;
-  brew cask install codekit;
   brew cask install charles;
   brew cask install discord;
   brew cask install robomongo;
