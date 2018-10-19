@@ -85,7 +85,7 @@ installHomebrewApps()
   brew cask install little-snitch;
   brew cask install charles;
   brew cask install discord;
-  brew cask install robomongo;
+  brew cask install robo-3t;
   brew cask install pibakery;
   brew cask install pgadmin4;
   brew cask install keybase;
