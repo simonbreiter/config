@@ -92,7 +92,6 @@ installHomebrewApps()
   brew cask install haskell-platform;
   brew cask install vcv-rack;
   brew cask install etcher;
-  brew cask install dotnet;
   brew cask install dotnet-sdk;
 }
 
