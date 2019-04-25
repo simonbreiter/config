@@ -41,8 +41,9 @@ installHomebrewApps()
   brew install jq;
   brew install ledger;
   brew install gdb;
-  brew install ranger;
   echo "set startup-with-shell off" >> ~/.gdbinit
+  brew install ranger;
+  brew install ngrep;
 
   echo "Installing homebrew cask applications...";
   brew tap caskroom/cask;
