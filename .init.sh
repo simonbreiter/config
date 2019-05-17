@@ -59,10 +59,8 @@ installHomebrewApps()
   brew cask install virtualbox;
   brew cask install arduino;
   brew cask install fritzing;
-  brew cask install mumble;
   brew cask install transmission;
   brew cask install vlc;
-  brew cask install intellij-idea;
   brew cask install sequel-pro;
   brew cask install unity;
   brew cask install alfred;
@@ -96,6 +94,7 @@ installHomebrewApps()
   brew cask install etcher;
   brew cask install dotnet-sdk;
   brew cask install vagrant;
+  brew cask install jcryptool;
 }
 
 installFishShell () 
