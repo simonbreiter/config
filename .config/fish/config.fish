@@ -27,6 +27,7 @@ alias du='du -ch'
 alias df='df -H'
 alias t='tmux'
 alias de='docker exec'
+alias kb='kubectl'
 # Navigation
 alias ..='cd ..'
 alias ...='cd ../../../'
