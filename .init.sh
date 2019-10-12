@@ -208,7 +208,7 @@ else
 
 	  case $opt in
 
-        "All")
+      "All")
 	      installHomebrewApps
 	      installFishShell
 	      installRubyGems
@@ -217,9 +217,8 @@ else
 	      installVim
 	      installTmux
 	      installOSXConfiguration
-
-          break
-          ;;
+        break
+        ;;
 
 	    "Homebrew Apps")
 	      installHomebrewApps
@@ -265,7 +264,7 @@ else
 	      break
 	      ;;
 
-	    *) echo "Invalid option";;
+	     *) echo "Invalid option";;
 
 	  esac
 
