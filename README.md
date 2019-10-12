@@ -9,9 +9,3 @@ macOS:
 ```bash
 bash -c "sh <(curl -s https://gitlab.com/simonbreiter/config/raw/master/.init.sh)"
 ```
-
-Ubuntu:
-
-```bash
-bash -c "sh <(curl -s https://gitlab.com/simonbreiter/config/raw/master/.init_ubuntu.sh)"
-```
