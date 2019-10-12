@@ -49,7 +49,7 @@ installHomebrewApps()
   echo "Installing homebrew cask applications...";
   brew tap caskroom/cask;
   brew tap caskroom/versions;
-  brew cask install java7;
+  brew cask install java7 \
   firefoxdeveloperedition \
   telegram \
   dropbox \
