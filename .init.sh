@@ -6,96 +6,96 @@ installHomebrewApps()
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
   echo "Installing homebrew applications..."
-  brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265;
-  brew install fdk-aac;
-  brew install git;
-  brew install git-flow;
-  brew install imagemagick;
-  brew install irssi;
-  brew install mysql;
-  brew install nmap;
-  brew install node;
-  brew install pandoc;
-  brew install python3;
-  brew install the_silver_searcher;
-  brew install tmux;
-  brew install vim --with-lua;
-  brew install tesseract --with-all-languages;
-  brew install leptonica;
-  brew install cmake;
-  brew install python3;
-  brew install homebrew/php/wp-cli;
-  brew install potrace;
-  brew install ctags;
-  brew install composer;
-  brew install pypy;
-  brew install ack;
-  brew install figlet;
-  brew link libtool;
-  brew install neovim;
-  brew install fish;
-  brew install reattach-to-user-namespace;
-  brew install curl --with-nghttp2;
-  brew link curl --force;
-  brew install htop;
-  brew install jq;
-  brew install ledger;
-  brew install gdb;
+  brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265 \
+  fdk-aac \
+  git \
+  git-flow \
+  imagemagick \
+  irssi \
+  mysql \
+  nmap \
+  node \
+  pandoc \
+  python3 \
+  the_silver_searcher \
+  tmux \
+  vim --with-lua \
+  tesseract --with-all-languages \
+  leptonica \
+  cmake \
+  python3 \
+  homebrew/php/wp-cli \
+  potrace \
+  ctags \
+  composer \
+  pypy \
+  ack \
+  figlet \
+  libtool \
+  neovim \
+  fish \
+  reattach-to-user-namespace \
+  curl --with-nghttp2 \
+  curl --force \
+  htop \
+  jq \
+  ledger \
+  gdb \
+  ranger \
+  ngrep \
+  pstree\ 
   echo "set startup-with-shell off" >> ~/.gdbinit
-  brew install ranger;
-  brew install ngrep;
-  brew install pstree;
 
   echo "Installing homebrew cask applications...";
   brew tap caskroom/cask;
   brew tap caskroom/versions;
   brew cask install java7;
-  brew cask install firefoxdeveloperedition;
-  brew cask install telegram;
-  brew cask install dropbox;
-  brew cask install iterm2;
-  brew cask install appcleaner;
-  brew cask install firefox;
-  brew cask install skype;
-  brew cask install virtualbox;
-  brew cask install arduino;
-  brew cask install fritzing;
-  brew cask install transmission;
-  brew cask install vlc;
-  brew cask install sequel-pro;
-  brew cask install unity;
-  brew cask install alfred;
-  brew cask install blender;
-  brew cask install grandperspective;
-  brew cask install namechanger;
-  brew cask install typora;
-  brew cask install sourcetree;
-  brew cask install metaz;
-  brew cask install mysqlworkbench;
-  brew cask install teamviewer;
-  brew cask install slack;
-  brew cask install logisim;
-  brew cask install wireshark;
-  brew cask install postman;
-  brew cask install docker;
-  brew cask install spotify;
-  brew cask install google-chrome-canary;
-  brew cask install transmit;
-  brew cask install vmware-fusion;
-  brew cask install micro-snitch;
-  brew cask install little-snitch;
-  brew cask install charles;
-  brew cask install discord;
-  brew cask install robo-3t;
-  brew cask install pibakery;
-  brew cask install pgadmin4;
-  brew cask install keybase;
-  brew cask install haskell-platform;
-  brew cask install vcv-rack;
-  brew cask install etcher;
-  brew cask install dotnet-sdk;
-  brew cask install vagrant;
-  brew cask install jcryptool;
+  firefoxdeveloperedition \
+  telegram \
+  dropbox \
+  iterm2 \
+  appcleaner \
+  firefox \
+  skype \
+  virtualbox \
+  arduino \
+  fritzing \
+  transmission \
+  vlc \
+  sequel-pro \
+  unity \
+  alfred \
+  blender \
+  grandperspective \
+  namechanger \
+  typora \
+  sourcetree \
+  metaz \
+  mysqlworkbench \
+  teamviewer \
+  slack \
+  logisim \
+  wireshark \
+  postman \
+  docker \
+  spotify \
+  google-chrome-canary \
+  transmit \
+  vmware-fusion \
+  micro-snitch \
+  little-snitch \
+  charles \
+  discord \
+  robo-3t \
+  pibakery \
+  pgadmin4 \
+  keybase \
+  haskell-platform \
+  vcv-rack \
+  etcher \
+  dotnet-sdk \
+  vagrant \
+  jcryptool
 }
 
 installFishShell () 
