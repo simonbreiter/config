@@ -47,8 +47,8 @@ installHomebrewApps()
   echo "set startup-with-shell off" >> ~/.gdbinit
 
   echo "Installing homebrew cask applications...";
-  brew tap caskroom/cask;
-  brew tap caskroom/versions;
+  brew tap caskroom/cask-cask;
+  brew tap caskroom/cask-versions;
   brew cask install java7 \
   firefoxdeveloperedition \
   telegram \
