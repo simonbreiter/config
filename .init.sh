@@ -111,35 +111,35 @@ installFishShell ()
 installRubyGems () 
 {
   echo "Installing gems..."
-  gem install sass --user-install;
-  gem install scss_lint --user-install;
-  gem install bropages --user-install;
-  gem install cocoapods --user-install;
-  gem install gollum --user-install;
-  gem install bundler --user-install;
-  gem install neovim --user-install;
-  gem install iStats --user-install;
+  gem install --user-install sass \
+  scss_lint \
+  bropages \
+  cocoapods \
+  gollum \
+  bundler \
+  neovim \
+  iStats;
 }
 
 installPythonLibraries ()
 {
   echo "Installing python libraries..."
-  pip3 install bpython;
-  pip3 install sympy;
-  pip3 install matplotlib;
-  pip3 install neovim;
-  pip3 install jupyter;
+  pip3 install bpython \
+  sympy \
+  matplotlib \
+  neovim \
+  jupyter \
 }
 
 installNPMLibraries ()
 {
   echo "Installing npm applications...";
-  npm install -g license-generator;
-  npm install -g nodemon;
-  npm install -g node-inspector;
-  npm install -g neovim;
-  npm install -g tern;
-  npm install -g resume-cli;
+  npm install -g license-generator \
+  nodemon \
+  node-inspector \
+  neovim \
+  tern \
+  resume-cli;
 }
 
 installVim ()
