@@ -200,7 +200,7 @@ else
   echo "|_|_| |_|_|\__(_)___/_| |_|"
   echo "\nWelcome, ${USER}. What do you like to install?\n"
 	PS3='Choose: '
-	options=("All" "Homebrew Apps" "Fish Shell" "Gems" "Python Libraries" "NPM Libraries" "VIM" "Tmux" "OS X Configuration" "Quit")
+	options=("All" "Homebrew Apps" "Fish Shell" "Ruby Gems" "Python Libraries" "NPM Libraries" "VIM" "Tmux" "OS X Configuration" "Quit")
 
 	select opt in "${options[@]}"
 
