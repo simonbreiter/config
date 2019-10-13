@@ -24,7 +24,7 @@ installHomebrewApps()
   leptonica \
   cmake \
   python3 \
-  homebrew/php/wp-cli \
+  wp-cli \
   potrace \
   ctags \
   composer \
