@@ -43,7 +43,7 @@ installHomebrewApps()
   gdb \
   ranger \
   ngrep \
-  pstree \
+  pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
   echo "Installing homebrew cask applications...";
