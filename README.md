@@ -1,6 +1,6 @@
 # README
 
-Standard config for my macOS and Linux machines.
+Standard config for my macOS machines.
 
 ## Installation
 
