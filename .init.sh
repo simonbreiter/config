@@ -84,7 +84,6 @@ installHomebrewApps()
   vmware-fusion \
   micro-snitch \
   little-snitch \
-  charles \
   discord \
   robo-3t \
   pibakery \
@@ -94,7 +93,6 @@ installHomebrewApps()
   vcv-rack \
   etcher \
   dotnet-sdk \
-  vagrant \
   jcryptool
 }
 
