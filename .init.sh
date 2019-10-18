@@ -93,7 +93,8 @@ installHomebrewApps()
   vcv-rack \
   etcher \
   dotnet-sdk \
-  jcryptool
+  jcryptool \
+  burp-suite
 }
 
 installFishShell () 
