@@ -114,10 +114,7 @@ installRubyGems ()
   scss_lint \
   bropages \
   cocoapods \
-  gollum \
-  bundler \
-  neovim \
-  iStats;
+  neovim;
 }
 
 installPythonLibraries ()
@@ -137,8 +134,7 @@ installNPMLibraries ()
   nodemon \
   node-inspector \
   neovim \
-  tern \
-  resume-cli;
+  tern;
 }
 
 installVim ()
