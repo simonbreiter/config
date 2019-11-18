@@ -43,6 +43,7 @@ installHomebrewApps()
   gdb \
   ranger \
   ngrep \
+  doctl \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
