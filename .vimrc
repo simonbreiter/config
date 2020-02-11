@@ -80,7 +80,7 @@ set backspace=indent,eol,start		" Intuitive backspace in in insert mode
 set hlsearch            " Highlight search terms...
 set incsearch           " ...dynamically as they are typed.
 " set shortmess=atI	    " Shorten command-line text and other info tokens
-set visualbell		      " No annyoing bell
+set belloff=all
 set mouse=a		          " Mouse Support
 set clipboard=unnamed   " Use System-Clipboard
 set wildmenu            " Opens the completion menu automatic
