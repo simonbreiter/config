@@ -71,7 +71,7 @@ installHomebrewApps()
   grandperspective \
   namechanger \
   typora \
-  sourcetree \
+  fork \
   metaz \
   mysqlworkbench \
   teamviewer \
