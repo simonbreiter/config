@@ -45,6 +45,8 @@ installHomebrewApps()
   ngrep \
   doctl \
   mkcert \
+  kubectx \
+  velero \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
