@@ -90,6 +90,7 @@ installHomebrewApps()
   vcv-rack \
   dotnet-sdk \
   jcryptool \
+  steam \
   burp-suite
 }
 
