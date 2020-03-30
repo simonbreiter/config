@@ -79,7 +79,6 @@ installHomebrewApps()
   postman \
   docker \
   spotify \
-  google-chrome-canary \
   transmit \
   vmware-fusion \
   micro-snitch \
