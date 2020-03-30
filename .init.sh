@@ -57,7 +57,6 @@ installHomebrewApps()
   appcleaner \
   firefox \
   skype \
-  virtualbox \
   arduino \
   fritzing \
   transmission \
