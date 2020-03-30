@@ -51,8 +51,7 @@ installHomebrewApps()
   echo "set startup-with-shell off" >> ~/.gdbinit
 
   echo "Installing homebrew cask applications...";
-  brew cask install firefoxdeveloperedition \
-  telegram \
+  brew cask install telegram \
   dropbox \
   iterm2 \
   appcleaner \
