@@ -3,7 +3,7 @@
 installHomebrewApps()
 {
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
   echo "Installing homebrew applications..."
   brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265 \
@@ -51,8 +51,6 @@ installHomebrewApps()
   echo "set startup-with-shell off" >> ~/.gdbinit
 
   echo "Installing homebrew cask applications...";
-  brew tap caskroom/cask-cask;
-  brew tap caskroom/cask-versions;
   brew cask install java7 \
   firefoxdeveloperedition \
   telegram \
