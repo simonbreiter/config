@@ -6,7 +6,7 @@ installHomebrewApps()
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
   echo "Installing homebrew applications..."
-  brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265 \
+  brew install ffmpeg --with-ffplay --with-freetype --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265 \
   fdk-aac \
   git \
   git-flow \
@@ -88,7 +88,6 @@ installHomebrewApps()
   pibakery \
   pgadmin4 \
   keybase \
-  haskell-platform \
   vcv-rack \
   etcher \
   dotnet-sdk \
