@@ -107,6 +107,7 @@ installRubyGems ()
   scss_lint \
   bropages \
   cocoapods \
+  docker-sync \
   neovim;
 }
 
