@@ -6,9 +6,7 @@ installHomebrewApps()
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
   echo "Installing homebrew applications..."
-  brew install ffmpeg --with-libass --with-libquvi --with-libvorbis --with-libvpx --with-opus --with-x265 \
-  fdk-aac \
-  git \
+  brew install git \
   git-flow \
   imagemagick \
   irssi \
