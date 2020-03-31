@@ -88,6 +88,7 @@ installHomebrewApps()
   steam \
   phpstorm \
   google-drive-file-stream \
+  google-chrome \
   burp-suite
 }
 
