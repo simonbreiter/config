@@ -18,7 +18,7 @@ installHomebrewApps()
   the_silver_searcher \
   tmux \
   vim \
-  tesseract --with-all-languages \
+  tesseract \
   leptonica \
   cmake \
   python3 \
