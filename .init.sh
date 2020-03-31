@@ -78,8 +78,6 @@ installHomebrewApps()
   spotify \
   transmit \
   vmware-fusion \
-  micro-snitch \
-  little-snitch \
   discord \
   robo-3t \
   pibakery \
