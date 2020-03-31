@@ -86,6 +86,7 @@ installHomebrewApps()
   dotnet-sdk \
   jcryptool \
   steam \
+  phpstorm \
   burp-suite
 }
 
