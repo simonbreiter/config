@@ -33,7 +33,7 @@ installHomebrewApps()
   neovim \
   fish \
   reattach-to-user-namespace \
-  curl --with-nghttp2 \
+  curl \
   htop \
   jq \
   ledger \
