@@ -87,6 +87,7 @@ installHomebrewApps()
   jcryptool \
   steam \
   phpstorm \
+  google-drive-file-stream \
   burp-suite
 }
 
