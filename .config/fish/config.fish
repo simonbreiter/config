@@ -61,7 +61,7 @@ set PATH /usr/local/bin $PATH
 set PATH /usr/local/sbin $PATH
 
 # For ruby without sudo
-set PATH ~/.gem/ruby/2.0.0/bin $PATH
+set PATH ~/.gem/ruby/2.6.0/bin $PATH
 
 ## MOTD
 function fish_greeting
