@@ -34,7 +34,6 @@ installHomebrewApps()
   fish \
   reattach-to-user-namespace \
   curl --with-nghttp2 \
-  curl --force \
   htop \
   jq \
   ledger \
