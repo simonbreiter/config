@@ -89,6 +89,7 @@ installHomebrewApps()
   phpstorm \
   google-drive-file-stream \
   google-chrome \
+  macpass \
   burp-suite
 }
 
