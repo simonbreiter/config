@@ -90,6 +90,7 @@ installHomebrewApps()
   google-drive-file-stream \
   google-chrome \
   macpass \
+  paw \
   burp-suite
 }
 
