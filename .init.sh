@@ -59,6 +59,7 @@ installHomebrewApps()
   transmission \
   vlc \
   sequel-pro \
+  unity-hub \
   unity \
   alfred \
   blender \
