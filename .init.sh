@@ -151,6 +151,7 @@ installVim ()
   rm -f installer.sh;
 
   curl -s --create-dirs -o ~/.vimrc https://gitlab.com/simonbreiter/config/raw/master/.vimrc;
+    curl -s --create-dirs -o ~/.ideavimrc https://gitlab.com/simonbreiter/config/raw/master/.ideavimrc;
 }
 
 installTmux ()
