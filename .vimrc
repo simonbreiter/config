@@ -1,21 +1,13 @@
 set shell=/bin/bash
 
 " ===== DEIN PLUGIN MANAGER =====
-if &compatible
-  set nocompatible
-endif
-set runtimepath+=~/.local/share/dein/repos/github.com/Shougo/dein.vim
 
-if dein#load_state('~/.local/share/dein')
-  call dein#begin('~/.local/share/dein')
+set runtimepath+=/Users/simonbreiter/.cache/dein/repos/github.com/Shougo/dein.vim
 
-  call dein#add('~/.local/share/dein/repos/github.com/Shougo/dein.vim')
-  call dein#add('Shougo/deoplete.nvim')
+if dein#load_state('/Users/simonbreiter/.cache/dein')
+  call dein#begin('/Users/simonbreiter/.cache/dein')
 
-  if !has('nvim')
-    call dein#add('roxma/nvim-yarp')
-    call dein#add('roxma/vim-hug-neovim-rpc')
-  endif
+  call dein#add('/Users/simonbreiter/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   call dein#add('junegunn/goyo.vim')
   call dein#add('junegunn/limelight.vim')
@@ -30,7 +22,6 @@ if dein#load_state('~/.local/share/dein')
   call dein#add('airblade/vim-gitgutter')
   call dein#add('tpope/vim-fugitive')
   call dein#add('pangloss/vim-javascript')
-  call dein#add('carlitux/deoplete-ternjs')
   call dein#add('ternjs/tern_for_vim')
   call dein#add('metakirby5/codi.vim')
   call dein#add('ledger/vim-ledger')
@@ -45,10 +36,6 @@ endif
 
 filetype plugin indent on
 syntax enable
-
-if dein#check_install()
-  call dein#install()
-endif
 
 " ====== COLORSCHEME =======
 colorscheme Tomorrow-Night 
@@ -181,10 +168,6 @@ nnoremap <F5> :GundoToggle<CR>
 
 " NERDTree
 nnoremap <F4> :NERDTreeToggle<CR>
-
-" Deoplete
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Goyo
 let g:goyo_width = "100"
