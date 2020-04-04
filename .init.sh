@@ -148,7 +148,7 @@ installVim ()
   echo "Installing vim plugins...";
   curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh;
   sh ./installer.sh ~/.cache/dein;
-  rm -rf installer.sh;
+  rm -f installer.sh;
 
   curl -s --create-dirs -o ~/.vimrc https://gitlab.com/simonbreiter/config/raw/master/.vimrc;
 }
