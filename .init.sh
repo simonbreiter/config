@@ -146,8 +146,9 @@ installVim ()
   curl -s --create-dirs -o ~/.config/nvim/init.vim https://gitlab.com/simonbreiter/config/raw/master/.config/nvim/init.vim;
 
   echo "Installing vim plugins...";
-  curl -s https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh;
-  sh ./installer.sh ".local/share/dein";
+  curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh;
+  sh ./installer.sh ~/.cache/dein;
+  rm -y installer.sh;
 
   curl -s --create-dirs -o ~/.vimrc https://gitlab.com/simonbreiter/config/raw/master/.vimrc;
 }
