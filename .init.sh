@@ -105,6 +105,7 @@ installFishShell ()
   cd ~/.config/fish/ && curl -s -O https://gitlab.com/simonbreiter/config/raw/master/.config/fish/config.fish && cd
   echo "Install fisher..."
   curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+  fisher add evanlucas/fish-kubectl-completions
 }
 
 installRubyGems () 
