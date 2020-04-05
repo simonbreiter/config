@@ -103,6 +103,8 @@ installFishShell ()
   cd /etc/ && sudo curl -s -O https://gitlab.com/simonbreiter/config/raw/master/motd.sh && cd
   sudo chmod +x /etc/motd.sh
   cd ~/.config/fish/ && curl -s -O https://gitlab.com/simonbreiter/config/raw/master/.config/fish/config.fish && cd
+  echo "Install fisher..."
+  curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 }
 
 installRubyGems () 
