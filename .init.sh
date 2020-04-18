@@ -93,7 +93,8 @@ installHomebrewApps()
   google-chrome \
   macpass \
   paw \
-  burp-suite
+  burp-suite \
+  autodesk-fusion360
 }
 
 installFishShell () 
