@@ -95,6 +95,7 @@ installHomebrewApps()
   macpass \
   paw \
   burp-suite \
+  whatsapp \
   autodesk-fusion360
 }
 
