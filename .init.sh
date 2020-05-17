@@ -51,6 +51,7 @@ installHomebrewApps()
 
   echo "Installing homebrew cask applications...";
   brew cask install telegram \
+  oracle-jdk \
   dropbox \
   iterm2 \
   appcleaner \
