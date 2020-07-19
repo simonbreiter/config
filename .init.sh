@@ -8,6 +8,7 @@ installHomebrewApps()
   echo "Installing homebrew applications..."
   brew install git \
   git-flow \
+  arping \
   imagemagick \
   irssi \
   mysql \
