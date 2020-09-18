@@ -47,6 +47,7 @@ installHomebrewApps()
   velero \
   helm \
   gradle \
+  gcc \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
