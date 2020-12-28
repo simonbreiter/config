@@ -99,7 +99,8 @@ installHomebrewApps()
   paw \
   burp-suite \
   whatsapp \
-  autodesk-fusion360
+  autodesk-fusion360 \
+  parallels
 }
 
 installFishShell () 
