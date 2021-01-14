@@ -48,6 +48,7 @@ installHomebrewApps()
   helm \
   gradle \
   gcc \
+  swi-prolog \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
