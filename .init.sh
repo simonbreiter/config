@@ -50,6 +50,7 @@ installHomebrewApps()
   gcc \
   swi-prolog \
   souffle-lang/souffle/souffle \
+  clozure-cl \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
