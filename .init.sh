@@ -49,6 +49,7 @@ installHomebrewApps()
   gradle \
   gcc \
   swi-prolog \
+  souffle-lang/souffle/souffle \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
