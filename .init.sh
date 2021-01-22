@@ -51,6 +51,7 @@ installHomebrewApps()
   swi-prolog \
   souffle-lang/souffle/souffle \
   clozure-cl \
+  bpython \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
@@ -133,8 +134,7 @@ installRubyGems ()
 installPythonLibraries ()
 {
   echo "Installing python libraries..."
-  pip3 install bpython \
-  sympy \
+  pip3 install sympy \
   matplotlib \
   neovim \
   jupyter;
