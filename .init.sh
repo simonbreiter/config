@@ -52,6 +52,7 @@ installHomebrewApps()
   souffle-lang/souffle/souffle \
   clozure-cl \
   bpython \
+  terraform \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
