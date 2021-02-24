@@ -53,6 +53,7 @@ installHomebrewApps()
   clozure-cl \
   bpython \
   terraform \
+  haskell-stack \
   pstree;
   echo "set startup-with-shell off" >> ~/.gdbinit
 
